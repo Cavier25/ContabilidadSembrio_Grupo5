@@ -1,0 +1,80 @@
+.app-header {
+    background-color: #780096;
+}
+.app-menu__label{
+    color:#780096;
+}
+.app-menu__label:hover,.app-menu__label:focus{
+    color:#fff; 
+}
+.app-header__logo{
+    background-color: #780096;
+}
+.app-sidebar{
+    background-color: #78009642;
+}
+.app-menu__item.active, .app-menu__item:hover, .app-menu__item:focus {
+    background: #780096;
+    border-left-color: #000000c7;
+    text-decoration: none;
+    color: white;
+}
+.treeview.is-expanded [data-toggle='treeview'] {
+    border-left-color: #000000c7;
+    background: #780096;
+    color: #fff;
+}
+.treeview-item{
+    background: #780096;
+}
+.btn-morado{
+    background-color: #780096;
+    color: white;
+}
+.app-sidebar__user-avatar{
+    width: 48px;
+    background: rgb(209, 203, 203);
+    padding: 6px;
+}
+ .app-sidebar__toggle{
+     display: -webkit-flex;
+     display: -moz-flex;
+     display: -ms-flex;
+     display: -o-flex;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15pt;
+ }
+.app-sidebar__toggle::before{
+    display: none;
+}
+.headerRegister, .header-primary{
+    background: #780096;
+    color: #FFF;
+}
+.headerUpdate{
+    background: #780096;
+    color: #FFF;
+}
+#divLoading{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(254,254,255, .65);
+	z-index: 9999;
+	display: none;
+}
+#divLoading img{
+	width: 50px;
+	height: 50px;
+}
+.required{
+	color: red;
+	font-size: 13pt;
+	font-weight: bold;
+}
